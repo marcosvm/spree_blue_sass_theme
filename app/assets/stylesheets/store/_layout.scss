@@ -3,7 +3,7 @@
 
 body {
   margin-top: 10px;
-  background: #FFF image-url('body-back.png') top left repeat-x;
+  background: #FFF image-url('/assets/body-back.png') top left repeat-x;
 }
 
 div.left { @include leftie; }
@@ -11,13 +11,13 @@ div.right { @include rightie;  }
 a { outline: none; }
 
 #wrapper {
-  background: transparent image-url('wrapper-back.png') top center no-repeat;
+  background: transparent image-url('/assets/wrapper-back.png') top center no-repeat;
   padding: 25px 20px 20px;
   position: relative;
   min-height: 420px;
   }
   body.two-col #wrapper {
-    background-image: image-url('wrapper-back-2.png');
+    background-image: image-url('/assets/wrapper-back-2.png');
   }
 
 .container {

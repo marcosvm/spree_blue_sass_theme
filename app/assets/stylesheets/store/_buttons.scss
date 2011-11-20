@@ -2,7 +2,7 @@
 
 button, a.button, input.button {
   @include rounded_corners(0.3em);
-  background: #EFEFEF image-url('buttons/bg-button.png') center left repeat-x !important;
+  background: #EFEFEF image-url('/assets/buttons/bg-button.png') center left repeat-x !important;
   border-style: solid;
   border-width: 1px !important;
   border-color: #DDD #999 #999 #DDD !important;
@@ -38,7 +38,7 @@ button.disabled, a.button.disabled, input.button.disabled{
 }
 
 button:hover, a.button:hover, input.button:hover {
-  background-image: image-url('buttons/bg-button-hover.png') !important;
+  background-image: image-url('/assets/buttons/bg-button-hover.png') !important;
 }
 
 button.large, a.button.large, input.button.large {

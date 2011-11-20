@@ -18,14 +18,14 @@
       overflow: hidden;
     }
     a:hover {
-      background: image-url('menu-hover.png') right center no-repeat;
+      background: image-url('/assets/menu-hover.png') right center no-repeat;
     }
   }
   li.current {
     width: 200px;
     a {
       width: 180px;
-      background: image-url('menu-current.png') right center no-repeat;
+      background: image-url('/assets/menu-current.png') right center no-repeat;
       white-space: nowrap;
       overflow: hidden;
     }
@@ -82,11 +82,11 @@ ul#nav-bar {
   li.cart-indicator {
     a {
       padding-right: 40px;
-      background: transparent image-url('cart-empty_x32.png') center right no-repeat;
+      background: transparent image-url('/assets/cart-empty_x32.png') center right no-repeat;
       display: block;
     }
     a.full {
-      background-image: image-url('cart-full_x32.png');
+      background-image: image-url('/assets/cart-full_x32.png');
     }
   }
 }

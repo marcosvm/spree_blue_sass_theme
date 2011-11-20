@@ -16,10 +16,10 @@ div#checkout {
   }
 
   #checkout_form_address {
-    background-image: image-url('steps/2.png');
+    background-image: image-url('/assets/steps/2.png');
   }
   #checkout_form_delivery {
-    background-image: image-url('steps/3.png');
+    background-image: image-url('/assets/steps/3.png');
   }
   #checkout_form_address #billing label, #checkout_form_address #shipping label {
     float: left;
@@ -44,7 +44,7 @@ div#checkout {
   }
 
   #checkout_form_payment {
-    background-image: image-url('steps/5.png');
+    background-image: image-url('/assets/steps/5.png');
     select { width: 75px; }
     #payment { @include column(8); }
     #order_details { @include column(12); }
